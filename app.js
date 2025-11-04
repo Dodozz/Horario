@@ -22,6 +22,16 @@ const scheduleData = {
   ],
   tuesday: [
     {
+      course_code: 'C102',
+      course_name: 'Sistemas Digitales',
+      start_time: '14:00',
+      end_time: '15:00',
+      building: 'Edif CI',
+      room: '201',
+      professor: 'Mario Alberto Sesma Martínez',
+      group: '1CM11'
+    },
+    {
       course_code: 'C301',
       course_name: 'Probabilidad',
       start_time: '16:00',
@@ -50,6 +60,16 @@ const scheduleData = {
     }
   ],
   wednesday: [
+    {
+      course_code: 'C102',
+      course_name: 'Sistemas Digitales',
+      start_time: '13:00',
+      end_time: '15:00',
+      building: 'Edif CI',
+      room: '201',
+      professor: 'Mario Alberto Sesma Martínez',
+      group: '1CM11'
+    },
     {
       course_code: 'C305',
       course_name: 'Sistemas Operativos',
@@ -139,6 +159,7 @@ const scheduleData = {
 };
 
 const subjectColors = {
+  C102: '#F97316',
   C301: '#FF6B6B',
   C302: '#4ECDC4',
   C303: '#45B7D1',
